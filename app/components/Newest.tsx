@@ -38,7 +38,7 @@ export default async function Newest() {
           </Link>
         </div>
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-          {data.map((product, index) => (
+          {data.map((product, index) => (product && (
             <div key={product._id} className="group relative ease-out duration-300 hover:scale-125  hover:p-4">
               <Link href={`/product/${product.slug}`}>
                 <div className="aspect-square w-full overflow-hidden rounded-md bg-gray-200 lg:h-80">
@@ -63,7 +63,7 @@ export default async function Newest() {
                 </div>
               </Link>
             </div>
-          ))}
+          )))}
         </div>
       </div>
     </div>

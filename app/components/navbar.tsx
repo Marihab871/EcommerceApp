@@ -14,9 +14,9 @@ export function Navbar() {
           <Link href='/'>Next<span className="text-primary">Commerce</span></Link>
         </div>
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
-          {link.map(([title, url]) => {
+          {link.map(([title, url],idx) => {
             return (
-              <div className="font-semibold style-none hover:text-primary">
+              <div key={idx} className="font-semibold style-none hover:text-primary">
                 <Link href={url}>{title}</Link>
               </div>
             );

@@ -12,13 +12,13 @@ export const dynamic = "force-dynamic";
 export default async function Hero() {
     const data = await getData()
     return (
-        <section className=" w-screen min-h-full mx-auto max-w-2xl  px-4 sm:pb-6 lg:max-w-7xl lg:px-8 sm:bg-primary">
-            <div className="mb-8 flex flex-warp md:mb-16  justify-between">
-                <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
-                    <h1 className="text-4xl font-bold sm:text-6xl mb-4 sm:mb-8">
+        <section className=" w-screen min-h-full mx-auto  px-4 sm:pb-6 lg:max-w-7xl lg:px-8 sm:bg-primary">
+            <div className="mb-8 flex flex-warp md:mb-16 justify-between">
+                <div className="mb-2 flex max-w-md flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
+                    <h1 className="font-bold text-6xl mb-4 sm:mb-8">
                         Top Fashion for a top price!
                     </h1>
-                    <p className="leading-relaxed xl:text-lg">
+                    <p className="leading-relaxed text-lg">
                         We sell only the most exclusive and top quality products for you.
                         We are the best so come shop with us.
                     </p>

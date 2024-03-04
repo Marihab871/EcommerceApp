@@ -1,5 +1,4 @@
-![Closhor](https://res.cloudinary.com/ddonnbywt/image/upload/v1709544837/yk4dc61xiczjxkpxwxn6.png
-)
+![Closhor](https://res.cloudinary.com/ddonnbywt/image/upload/v1709544837/j6jxms5v9bghmpwsvyos.png)
 
 
 
